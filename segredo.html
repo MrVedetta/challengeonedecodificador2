@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // como mudar caracteres
+        var letras = {'a': 'ai','e': 'enter','i': 'imes','o': 'ober','u': 'ufat'};
+
+        var texto = prompt('Digite uma palavra');
+        texto =texto.replace(/[aeiou]/g, m => letras[m]);
+        document.write(texto);
+
+    </script>
+</body>
+</html>
